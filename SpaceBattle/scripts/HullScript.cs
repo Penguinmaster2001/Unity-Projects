@@ -1,0 +1,1 @@
+﻿using UnityEngine;public class HullScript:MonoBehaviour{public float hull;void OnCollisionEnter(Collision collision){if(collision.gameObject.tag=="bolt"){Destroy(collision.gameObject);hull--;}}}
